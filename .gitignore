@@ -3,8 +3,11 @@
 .idea/*
 .vs
 
-# ignore dev output
+# ignore output
 dev
+public
 
 # ignore node files
 node_modules
+
+
