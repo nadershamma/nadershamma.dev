@@ -1,0 +1,17 @@
+baseURL: "https://nadershamma.dev/"
+languageCode: "en-gb"
+title: "Nader Al-Shamma"
+theme: "hello-world"
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true

@@ -1,0 +1,10 @@
+# ignore IDE files
+.idea
+.idea/*
+.vs
+
+# ignore dev output
+dev
+
+# ignore node files
+node_modules
