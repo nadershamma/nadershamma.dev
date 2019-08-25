@@ -2,6 +2,10 @@ baseURL: "https://nadershamma.dev/"
 languageCode: "en-gb"
 title: "Nader Al-Shamma"
 theme: "hello-world"
+permalinks:
+  blog: /:year/:month/:title/
+params:
+  Author: "Nader Al-Shamma"
 privacy:
   disqus:
     disable: true

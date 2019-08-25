@@ -1,0 +1,14 @@
+{
+  "name": "nadershamma.dev",
+  "version": "1.0.0",
+  "description": "\"personal blog\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nader Al-Shamma",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bulma": "^0.7.5"
+  }
+}
