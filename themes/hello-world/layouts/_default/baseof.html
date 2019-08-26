@@ -2,7 +2,7 @@
 <html>
 <head>
     {{ partial "head.html" . }}
-    {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+    {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
     {{ $sass := resources.Get "src/sass/styles.scss" }}
     {{ $styles := $sass | resources.ToCSS $options | resources.Minify }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}"/>
@@ -11,7 +11,7 @@
 {{ partial "navbar.html" . }}
 {{ block "header" . }}
 {{ end }}
-{{- block "main" . }}{{- end }}
-{{- partial "footer.html" . -}}
+{{ block "main" . }}{{ end }}
+{{ partial "footer.html" . }}
 </body>
 </html>

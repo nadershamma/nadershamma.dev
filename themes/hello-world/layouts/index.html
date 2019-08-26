@@ -1,7 +1,7 @@
 {{ define "header" }}
-<section class="hero  is-medium">
+<header class="hero is-fullheight-with-navbar">
     <section class="hero-body container">
-        <div class="content has-text-centered">
+        <section class="content has-text-centered">
             <figure id="homepage__profile-image" class="image is-rounded has-text-centered">
                 {{ with .Resources.GetMatch "profile" }}
                 <img class="is-rounded" src="{{ .Permalink }}">
@@ -9,22 +9,40 @@
             </figure>
             <h1 class="title is-3 has-text-centered-mobile">{{ .Title }}</h1>
             {{ with .Params.subtitle }}
-            <h3 class="subtitle has-text-centered-mobile">{{ . }}</h3>
+            <h3 class="subtitle is-5 has-text-centered-mobile"> {{ . }}</h3>
             {{ end }}
-        </div>
-        <div class="content">
-            {{ .Content }}
-        </div>
+            {{ with .Params.info }}
+            <p class="has-text-centered-mobile">{{ . }}</p>
+            {{ end }}
+        </section>
     </section>
-</section>
+</header>
 {{ end }}
 {{ define "main" }}
-<main class="section">
-    <section class="container">
-        <article class="content">
-            <h2>About me</h2>
-
+<main>
+    <section class="section border-top container">
+        <article>
+            <header class="content">
+                {{ with .Params.about_title }}
+                <h2 class="is-3">{{ . }}</h2>
+                {{ else }}
+                <h2 class="is-3">About me</h2>
+                {{ end }}
+            </header>
+            <article class="content">
+                {{ .Content }}
+            </article>
         </article>
+    </section>
+    <section class="section border-top container">
+        <section class="content">
+            <h2 class="is-3">Latest blog</h2>
+        </section>
+    </section>
+    <section class="section border-top container">
+        <section class="content">
+            <h2 class="is-3">references</h2>
+        </section>
     </section>
 </main>
 {{ end }}

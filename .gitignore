@@ -6,8 +6,10 @@
 # ignore output
 dev
 public
+resources
 
 # ignore node files
 node_modules
+
 
 
