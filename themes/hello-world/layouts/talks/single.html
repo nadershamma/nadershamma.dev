@@ -6,8 +6,8 @@
                 <h1 class="title is-4">{{ .Title }}</h1>
             </section>
             <section class="content">
-                <h2 class="title is-5">{{ .Params.event }}</h2>
-                <h3 class="subtitle is-6">{{ .Params.location }} - {{ .Date.Format "01 January 2006" }}</h3>
+                <h2 class="title is-5"><a href="{{ .Params.link }}" target="_blank">{{ .Params.event }}</a></h2>
+                <h3 class="subtitle is-6">{{ .Params.location }} - {{ .Date.Format "02 January 2006" }}</h3>
             </section>
         </div>
     </section>

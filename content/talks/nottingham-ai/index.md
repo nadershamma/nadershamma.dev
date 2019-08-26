@@ -10,6 +10,8 @@ location: "Nottingham"
 link: "https://www.meetup.com/Nottingham-Artificial-Intelligence-Meetup/"
 ---
 
+{{< slideshare "ac086058d26c48efaa2ddad20f5e68d2" >}}
+
 Artificial Intelligence, once a mere curiosity, is gaining a great deal of interest in the field of medicine. In this 
 talk we will explore some of the practical applications of medical AI, the research surrounding this exciting field and 
 the potential for AI to be utilised as a support tool in healthcare and medicine. The talk will take high level view of 

@@ -10,6 +10,8 @@ location: "London"
 link: "https://saiconference.com/Conferences/Computing2017"
 ---
 
+{{< slideshare "1c0f22a86ac74083b2371baa30ac2ca8" >}}
+
 Artificial Intelligence (AI) and Machine Learning (ML) have shown great promise in the field of medicine and healthcare. 
 This talk outlines the findings from research which seeks to understand how AI and ML have been applied to the realm of 
 patient care within the context of chronic disease, with a specific focus on Inflammatory Bowel Disease (IBD). 

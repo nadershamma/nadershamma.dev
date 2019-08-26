@@ -10,6 +10,8 @@ location: "San Francisco"
 link: "https://saiconference.com/Conferences/FTC2016"
 ---
 
+{{< slideshare "6a7062e0aed1481e8fb9e61528f8abb9">}}
+
 Why Should we Care About Chronic Disease? Long term chronic disease is one of the biggest challenges health systems, 
 globally, will face during the twenty-first century. Chronic illnesses are burden for both the individual and society 
 as a whole. The number of people affected by chronic conditions will increase exponentially over the coming decades.
