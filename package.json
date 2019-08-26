@@ -10,5 +10,8 @@
   "license": "UNLICENSED",
   "dependencies": {
     "bulma": "^0.7.5"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2"
   }
 }

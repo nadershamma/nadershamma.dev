@@ -1,1 +1,30 @@
-<h1> Hello world</h1>
+{{ define "header" }}
+<section class="hero  is-medium">
+    <section class="hero-body container">
+        <div class="content has-text-centered">
+            <figure id="homepage__profile-image" class="image is-rounded has-text-centered">
+                {{ with .Resources.GetMatch "profile" }}
+                <img class="is-rounded" src="{{ .Permalink }}">
+                {{ end }}
+            </figure>
+            <h1 class="title is-3 has-text-centered-mobile">{{ .Title }}</h1>
+            {{ with .Params.subtitle }}
+            <h3 class="subtitle has-text-centered-mobile">{{ . }}</h3>
+            {{ end }}
+        </div>
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </section>
+</section>
+{{ end }}
+{{ define "main" }}
+<main class="section">
+    <section class="container">
+        <article class="content">
+            <h2>About me</h2>
+
+        </article>
+    </section>
+</main>
+{{ end }}

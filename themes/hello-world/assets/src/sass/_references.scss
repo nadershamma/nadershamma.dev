@@ -1,0 +1,48 @@
+@mixin quote {
+  width: 100%;
+  blockquote {
+    quotes: "\201C""\201D";
+    background: none;
+
+    &:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+
+    p {
+      display: inline;
+      font-style: italic;
+    }
+
+    footer {
+      margin-top: 10px;
+    }
+  }
+}
+
+#references {
+  height: 200px;
+  position: relative;
+
+  .references__quote {
+    height: 200px;
+    @include quote;
+  }
+}
+
+.section__references {
+  .references__quote {
+    @include quote;
+    blockquote {
+      border-left: none;
+      i {
+        padding-left: 10px;
+
+      }
+    }
+  }
+}

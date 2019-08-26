@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: 
 draft: true
-author: "{{ .Site.Params.Author }}"
+author: "{{ .Site.Params.author }}"
 description: 
 keywords:
 event:  

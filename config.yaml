@@ -5,7 +5,8 @@ theme: "hello-world"
 permalinks:
   blog: /:year/:month/:title/
 params:
-  Author: "Nader Al-Shamma"
+  author: "Nader Al-Shamma"
+  description: "Nader Al-Shamma"
 privacy:
   disqus:
     disable: true

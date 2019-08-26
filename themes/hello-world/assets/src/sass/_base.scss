@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fafafa;
+
+  main {
+    width: 100%;
+    flex-grow: 1;
+  }
+}
+

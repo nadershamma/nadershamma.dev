@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta property='og:site_name' content='{{ .Site.Title }}'>
+<meta property='og:type' content='website'>
+{{ $metaDescription := "" }}
+{{ with .Description }}
+  {{ $metaDescription := . }}
+{{ else }}
+  {{ $metaDescription := .Site.Params.description }}
+{{ end }}
+<meta name='description' content='{{ $metaDescription }}'>
+<meta property='og:description' content='{{ $metaDescription }}'>
+<meta name='twitter:description' content='{{ $metaDescription }}'>
+{{ with .Page.Params.og_image }}
+<meta property="og:image" content="{{ . }}">
+<meta name="twitter:image" content="{{ . }}">
+{{ end }}
+
+{{ $title := .Title }}
+{{ if ne .IsHome false }}
+  {{ $title := print .Title "|" .Site.Title }}
+{{ end }}
+<title>{{ $title }}</title>
+<meta property='og:title' content='{{ $title }}'>
+<meta name='twitter:title' content='{{ $title }}'>
+<link rel='canonical' href='{{ .Permalink }}'>
+<meta property='og:url' content='{{.Permalink }}'>
+<meta name='twitter:url' content='{{ .Permalink }}'>
