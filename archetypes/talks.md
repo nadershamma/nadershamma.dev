@@ -1,12 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: 
+date: {{ .Date }}
 draft: true
 author: "{{ .Site.Params.author }}"
 description: 
 keywords:
 event:  
 location: 
-url:
+link:
 ---
 

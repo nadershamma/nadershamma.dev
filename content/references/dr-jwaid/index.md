@@ -1,7 +1,7 @@
 ---
 title: "Dr Ali Jwaid"
 date: 2018-07-01T13:52:33+01:00
-draft: true
+draft: 
 description: "He (Nader) is truly passionate about his work. He is thorough and communicates clearly."
 keywords: "Nader Al-Shamma personal reference"
 linkedin: "https://www.linkedin.com/in/alijwaid/"

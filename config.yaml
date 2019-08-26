@@ -3,7 +3,8 @@ languageCode: "en-gb"
 title: "Nader Al-Shamma"
 theme: "hello-world"
 permalinks:
-  blog: /:year/:month/:title/
+  blog: /:year/:title/
+  talks: /:year/:title/
 params:
   author: "Nader Al-Shamma"
   description: "Nader Al-Shamma"
