@@ -1,0 +1,28 @@
+<section class="section border-top container">
+    <section class="columns is-centered">
+        <section class="column">
+            {{ $reference_pages := shuffle (where .Pages "Section" "references") }}
+            <section id="references" class="content level">
+                {{ range first 1 $reference_pages }}
+                <div class="references__quote level-item">
+                    <blockquote aria-label="Personal references"
+                                cite="{{with .Params.linkedin }} {{ . }} {{ else }}{{ .Params.Link }}{{ end }}">
+                        {{ .Summary }}
+                        <footer class="has-text-right">
+                            —<a href="{{with .Params.linkedin }} {{ . }} {{ else }}{{ .Params.Link }}{{ end }}"
+                                target="_blank">{{ .Title }} <cite>{{ .Params.company }}</cite></a>
+                        </footer>
+                    </blockquote>
+                </div>
+                {{ end }}
+            </section>
+            <section class="level">
+                <div class="level-item content">
+                    <div class="level-item">
+                        <p><a href="">View references</a></p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</section>
