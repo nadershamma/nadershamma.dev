@@ -17,11 +17,11 @@
                     <h2 class="title is-4"><a href="{{.RelPermalink}}">{{ .Title }}</a></h2>
                 </article>
                 <footer>
-                    <table class="table">
+                    <table class="table is-fullwidth">
                         <tbody>
                         <tr>
                             <td><a href="{{ .Params.link }}" target="_blank">{{ .Params.event }}</a></td>
-                            <td>{{ .Params.location }}</td>
+                            <td class="has-text-right-tablet">{{ .Params.location }}</td>
                         </tr>
                         <tr>
                             <td>{{ .Date.Format "01 January 2006" }}</td>
