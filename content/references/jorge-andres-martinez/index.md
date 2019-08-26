@@ -1,7 +1,7 @@
 ---
 title: "Jorge Andres Martinez"
 date: 2018-06-07T14:00:21+01:00
-draft: true
+draft: 
 description: "Nader takes the time to really understand other people's business and the needs of their customers and sector."
 keywords: "Nader Al-Shamma personal reference"
 linkedin: "https://www.linkedin.com/in/jorgeandresmartinez/"

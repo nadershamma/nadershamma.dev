@@ -1,7 +1,7 @@
 ---
 title: "Thomas Ali"
 date: 2018-08-14T14:06:13+01:00
-draft: true
+draft: 
 description: "We would highly recommend Nader to anyone who is wanting to make sure they have done everything they can to ensure their site is optimised"
 keywords: "Nader Al-Shamma personal reference"
 linkedin: "https://www.linkedin.com/in/thomasali1/"

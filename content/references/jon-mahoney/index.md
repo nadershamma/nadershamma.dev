@@ -1,7 +1,7 @@
 ---
 title: "Jon Mahoney"
 date: 2018-10-25T13:57:42+01:00
-draft: true
+draft: 
 description: "Nader helped me understand what I need to consider when developing a web based application"
 keywords: "Nader Al-Shamma personal reference"
 linkedin: "https://www.linkedin.com/in/jon-mahoney-8b4b0148/"

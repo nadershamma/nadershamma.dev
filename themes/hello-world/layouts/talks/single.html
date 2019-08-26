@@ -1,0 +1,31 @@
+{{ define "header" }}
+<header class="hero is-light is-bold">
+    <section class="hero-body">
+        <div class="container">
+            <section class="content">
+                <h1 class="title is-4">{{ .Title }}</h1>
+            </section>
+            <section class="content">
+                <h2 class="title is-5"><a href="{{ .Params.link }}" target="_blank">{{ .Params.event }}</a></h2>
+                <h3 class="subtitle is-6">{{ .Params.location }} - {{ .Date.Format "02 January 2006" }}</h3>
+            </section>
+        </div>
+    </section>
+</header>
+{{ end }}
+{{ define "main" }}
+<main class="section">
+    <div class="container">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="{{ .Site.Home.Permalink }}">Home</a></li>
+                <li><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
+                <li><a href="{{ .RelPermalink }}">$</a></li>
+            </ul>
+        </nav>
+        <article class="content">
+            {{ .Content }}
+        </article>
+    </div>
+</main>
+{{ end }}

@@ -1,7 +1,7 @@
 ---
 title: "Emma Jordan"
 date: 2018-07-30T13:55:42+01:00
-draft: true
+draft: 
 description: "By the end of the session I had a much better understanding of how to begin to improve my website..."
 keywords: "Nader Al-Shamma personal reference"
 linkedin:
