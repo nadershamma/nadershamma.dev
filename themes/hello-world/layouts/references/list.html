@@ -1,0 +1,28 @@
+{{ define "header" }}
+<header class="hero is-info is-bold">
+    <section class="hero-body">
+        <section class="container content">
+            <h1 class="title is-3">{{ .Title }}</h1>
+        </section>
+    </section>
+</header>
+{{ end }}
+{{ define "main" }}
+<main class="section">
+    <section class="container">
+        {{ range .Pages }}
+        <article class="box">
+            <div class="content">
+                <blockquote aria-label="Personal references"
+                            cite="{{with .Params.linkedin }} {{ . }} {{ else }}{{ .Params.Link }}{{ end }}">
+                    {{ .Summary }} <a href="{{ .RelPermalink }}">Read more</a>
+                    <footer class="has-text-right">
+                        —<a href="{{ .RelPermalink }}">{{ .Title }} <cite>{{ .Params.company }}</cite></a>
+                    </footer>
+                </blockquote>
+            </div>
+        </article>
+        {{ end }}
+    </section>
+</main>
+{{ end }}

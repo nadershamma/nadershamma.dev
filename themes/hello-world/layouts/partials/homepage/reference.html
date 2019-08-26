@@ -19,7 +19,9 @@
             <section class="level">
                 <div class="level-item content">
                     <div class="level-item">
-                        <p><a href="">View references</a></p>
+                        {{ range first 1 ( where .Site.Sections "Type" "references") }}
+                        <p><a href="{{.RelPermalink}}">View references</a></p>
+                        {{ end }}
                     </div>
                 </div>
             </section>
