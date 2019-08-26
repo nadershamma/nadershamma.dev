@@ -1,0 +1,45 @@
+{{ define "header" }}
+<header class="hero is-light is-bold">
+    <section class="hero-body">
+        <section class="container">
+            <section class="content">
+                <h1 class="title is-3">{{ .Title }}</h1>
+                <h2 class="subtitle is-5">{{ .Params.company }}</h2>
+            </section>
+            <section class="level">
+                <section class="level-left">
+                    <p>{{ .Date.Format "2 January 2006" }}</p>
+                </section>
+                <section class="level-right">
+                    <div class="tabs">
+                        <ul>
+                            {{ with .Params.linkedin }}
+                            <li><a href="{{ . }}" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                            {{ end }}
+                            {{ with .Params.link }}
+                            <li><a href="{{ . }}" target="_blank"><i class="fas fa-globe fa-2x"></i></a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </section>
+</header>
+{{ end }}
+{{ define "main" }}
+<main class="section">
+    <section class="container">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="{{ .Site.Home.Permalink }}">Home</a></li>
+                <li><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            </ul>
+        </nav>
+        <article class="content">
+                {{ .Content }}
+        </article>
+    </section>
+</main>
+{{ end }}
