@@ -14,13 +14,10 @@
         </section>
         <section class="navbar-menu">
             <div class="navbar-end">
-                <a class="navbar-item {{if .IsHome }} is-active {{ end }}" href="{{ .Site.Home.Permalink }}">
-                    Home
-                </a>
                 {{ range .Site.Menus.main }}
                 <a class="navbar-item {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}"
                    href="{{ .URL }}">
-                    {{ humanize .Page.Type }}
+                    {{ .Name}}
                 </a>
                 {{ end }}
             </div>

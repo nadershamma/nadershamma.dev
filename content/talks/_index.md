@@ -7,6 +7,7 @@ description: "Conference, meetups and workshop talks and presentations on a vari
 keywords: "Nader Al-Shamma public speaking"
 menu:
   main:
-    weight: 2
+    weight: 3
+    name: "Talks"
 ---
 

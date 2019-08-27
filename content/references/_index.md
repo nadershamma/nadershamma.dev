@@ -6,6 +6,7 @@ description:
 keywords:
 menu:
   main:
-    weight: 0
+    weight: 4
+    name: "References"
 ---
 
