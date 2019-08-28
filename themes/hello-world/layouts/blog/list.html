@@ -1,0 +1,36 @@
+{{ define  "header" }}
+<header class="hero is-light is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <section class="content">
+                <h1 class="is-3">{{ .Title }}</h1>
+            </section>
+        </div>
+    </div>
+</header>
+{{ end }}
+{{ define "main" }}
+<main class="section">
+    <div class="container">
+        {{ range .Pages }}
+        <div class="box">
+            <article class="content">
+                <article>
+                    <h2 class="title is-4"><a href="{{.RelPermalink}}">{{ .Title }}</a></h2>
+                </article>
+                <footer>
+                    <div class="columns">
+                        <div class="column is-12-mobile is-6-tablet">
+                            <p>{{ .Params.author }}</p>
+                        </div>
+                        <div class="column is-12-mobile is-6-tablet has-text-right">
+                            <p>{{ .Date.Format "02 January 2006" }}</p>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+        </div>
+        {{ end }}
+    </div>
+</main>
+{{ end }}

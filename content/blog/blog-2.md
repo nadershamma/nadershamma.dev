@@ -1,7 +1,7 @@
 ---
-title: "Hello World"
-date: 2019-08-28T19:55:15+01:00
-draft: 
+title: "Blog 2"
+date: 2019-08-28T19:56:47+01:00
+draft: true
 author: "Nader Al-Shamma"
 description: 
 keywords: 
@@ -18,4 +18,3 @@ placerat. Facilisis vulputate dui tincidunt cubilia magna mollis nibh fermentum 
 vivamus semper condimentum vitae scelerisque eget, sodales dictum lacus nisl sociis sociosqu libero mattis felis. 
 Tincidunt iaculis dapibus mauris ultricies luctus aenean imperdiet sociis, pretium justo cursus inceptos hendrerit 
 aliquam bibendum nisl mi, id ut quis dui ultrices suscipit suspendisse.
-

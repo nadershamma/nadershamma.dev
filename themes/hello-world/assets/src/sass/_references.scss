@@ -25,11 +25,11 @@
 }
 
 #references {
-  height: 200px;
+  height: auto;
   position: relative;
 
   .references__quote {
-    height: 200px;
+    height: auto;
     @include quote;
   }
 }
