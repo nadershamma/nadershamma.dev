@@ -1,0 +1,21 @@
+{{ if gt (len (where .Site.RegularPages "Section" "==" "blog")) 0 }}
+<section class="section border-top container">
+    <section class="content">
+        <h2 class="is-3">
+            <a href="{{ range first 1 (where .Site.Sections "Type" "blog")}} {{ .RelPermalink }} {{end}}" title="blog">
+            Latest blog
+            </a>
+        </h2>
+    </section>
+    <section class="columns">
+        {{range first 3 (where .Pages "Section" "blog") }}
+        <div class="column is-12-mobile is-4-tablet">
+            <div class="content">
+                <h2 class="title is-4"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                <p class="subtitle is-6">{{ .Date.Format "02 January 2006" }}</p>
+            </div>
+        </div>
+        {{ end }}
+    </section>
+</section>
+{{ end }}

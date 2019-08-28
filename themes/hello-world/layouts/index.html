@@ -34,13 +34,7 @@
             </article>
         </article>
     </section>
-    {{ if gt (len (where .Site.RegularPages "Section" "==" "blog")) 0 }}
-    <section class="section border-top container">
-        <section class="content">
-            <h2 class="is-3">Latest blog</h2>
-        </section>
-    </section>
-    {{ end }}
-{{ partial "homepage/reference.html" . }}
+    {{ partial "homepage/blog_roll.html" . }}
+    {{ partial "homepage/reference.html" . }}
 </main>
 {{ end }}
