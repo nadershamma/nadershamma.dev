@@ -4,7 +4,7 @@
         <section class="content has-text-centered">
             <figure id="homepage__profile-image" class="image is-rounded has-text-centered">
                 {{ with .Resources.GetMatch "profile" }}
-                <img class="is-rounded" src="{{ .Permalink }}">
+                <img class="is-rounded" src="{{ .RelPermalink }}">
                 {{ end }}
             </figure>
             <h1 class="title is-3 has-text-centered-mobile">{{ .Title }}</h1>
