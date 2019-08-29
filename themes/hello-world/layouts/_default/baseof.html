@@ -6,6 +6,7 @@
     {{ $sass := resources.Get "src/sass/styles.scss" }}
     {{ $styles := $sass | resources.ToCSS $options | resources.Minify }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
+    {{ block "extra_styles" .}}{{ end }}
 </head>
 <body>
 {{ partial "navbar.html" . }}

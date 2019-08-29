@@ -2,6 +2,7 @@ baseURL: "https://nadershamma.dev/"
 languageCode: "en-gb"
 title: "Nader Al-Shamma"
 theme: "hello-world"
+pygmentsCodeFences: true
 permalinks:
   blog: /blog/:year/:title/
   talks: /talks/:year/:title/

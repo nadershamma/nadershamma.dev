@@ -1,0 +1,22 @@
+{{define "header" }}
+<header class="hero">
+    <div class="hero-body">
+        <div class="container">
+            <div class="content">
+                <h1 class="title is-3">{{ .Title }}</h1>
+                <p class="is-size-5">{{ .Params.author }}</p>
+                <p class="is-size-7">{{ .Date.Format "02 Jan 2006" }} | {{ .ReadingTime }} min read</p>
+            </div>
+        </div>
+    </div>
+</header>
+{{ end }}
+{{ define "main" }}
+<main class="section">
+    <div class="container">
+        <article class="content">
+            {{ .Content }}
+        </article>
+    </div>
+</main>
+{{ end }}
