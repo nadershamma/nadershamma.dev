@@ -12,9 +12,9 @@
 <meta name='description' content='{{ $metaDescription }}'>
 <meta property='og:description' content='{{ $metaDescription }}'>
 <meta name='twitter:description' content='{{ $metaDescription }}'>
-{{ with .Page.Params.og_image }}
-<meta property="og:image" content="{{ . }}">
-<meta name="twitter:image" content="{{ . }}">
+{{ with .Resources.GetMatch "og_image" }}
+<meta property="og:image" content="{{ .RelPermalink }}">
+<meta name="twitter:image" content="{{ .RelPermalink }}">
 {{ end }}
 
 {{ $title := .Title }}

@@ -3,3 +3,5 @@
 
 # Redirect default Netlify subdomain to primary domain
 http://compassionate-shockley-67c4c6.netlify.com/* https://www.nadershamma.dev/:splat 301!
+https://compassionate-shockley-67c4c6.netlify.com/* https://www.nadershamma.dev/:splat 301!
+https://nadershamma.dev/* https://www.nadershamma.dev/:splat 301!

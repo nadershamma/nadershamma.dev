@@ -10,6 +10,8 @@ info: "Software Engineer | Business Analyst | Published Academic | Public Speake
 resources:
 - name: profile
   src: profile.jpg
+- name: og_image
+  src: php_unconf2017_16x9.jpg 
 ---
 
 I'm Nader; a software engineer, entrepreneur, published academic and conference speaker. I'm passionate about building good 
