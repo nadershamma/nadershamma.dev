@@ -3,6 +3,10 @@ title: About me
 date: 2019-08-27T23:09:35.000Z
 description: 'About Nader Al-Shamma, Software Engineer'
 keywords: Nader Al-Shamma
+menu:
+  main:
+    weight: 2
+    name: "About me"
 ---
 
 I am a software engineer, business consultant, published academic and public speaker, specializing in full stack web 
