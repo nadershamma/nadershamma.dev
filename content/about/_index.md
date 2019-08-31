@@ -51,7 +51,7 @@ Tools, frameworks and libraries I like working with:
   - Git
   - IntelliJ IDEs
   
-Ops Systems:
+Ops Systems and tools I like to work with:
   
   - Azure: DevOps CI/CD, AppServices 
   - Linux (Ubuntu)
