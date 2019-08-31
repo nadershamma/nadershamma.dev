@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
     <script src="/js/functions.js" defer></script>
     {{ block "extra_styles" .}}{{ end }}
+    {{block "extra_scripts" .}}{{ end }}
 </head>
 <body>
 {{ partial "navbar.html" . }}
@@ -15,5 +16,6 @@
 {{ end }}
 {{ block "main" . }}{{ end }}
 {{ partial "footer.html" . }}
+{{ block "inline_scripts" . }}{{ end }}
 </body>
 </html>

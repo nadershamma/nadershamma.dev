@@ -1,3 +1,6 @@
+{{ define "extra_scripts" }}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ end }}
 {{ define "header" }}
 <header class="hero is-fullheight-with-navbar">
     <section class="hero-body container">
@@ -37,4 +40,17 @@
     {{ partial "homepage/blog_roll.html" . }}
     {{ partial "homepage/reference.html" . }}
 </main>
+{{ end }}
+{{ define "inline_scripts" }}
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+</script>
 {{ end }}

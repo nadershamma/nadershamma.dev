@@ -4,6 +4,7 @@ date: {{ .Date }}
 draft: true
 author: "{{ .Site.Params.author }}"
 description: 
-keywords: 
+keywords:
+headline_image:
 ---
 
