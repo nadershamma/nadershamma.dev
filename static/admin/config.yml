@@ -5,11 +5,23 @@ backend:
 media_folder: "static/images/media"
 public_folder: "/images/media"
 collections:
+  - name: "about" # Used in routes, e.g., /admin/collections/blog
+    label: "About" # Used in the UI
+    folder: "content/about" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true, required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Keywords", name: "keywords", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -19,3 +31,34 @@ collections:
       - {label: "Keywords", name: "keywords", widget: "string", required: false}
       - {label: "Headline Image", name: "headline_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "references" # Used in routes, e.g., /admin/collections/blog
+      label: "References" # Used in the UI
+      folder: "content/references" # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+      fields: # The fields for each document, usually in front matter
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Publish Date", name: "date", widget: "datetime"}
+        - {label: "Draft", name: "draft", widget: "boolean", default: true, required: false}
+        - {label: "Description", name: "description", widget: "text", required: false}
+        - {label: "Keywords", name: "keywords", widget: "string", required: false}
+        - {label: "Linkedin", name: "linkedin", widget: "string", required: false}
+        - {label: "Company", name: "company", widget: "string", required: false}
+        - {label: "Link", name: "link", widget: "string", required: false}
+        - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "talks" # Used in routes, e.g., /admin/collections/blog
+      label: "Talks" # Used in the UI
+      folder: "content/talks" # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+      fields: # The fields for each document, usually in front matter
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Publish Date", name: "date", widget: "datetime"}
+        - {label: "Draft", name: "draft", widget: "boolean", default: true, required: false}
+        - {label: "Description", name: "description", widget: "text", required: false}
+        - {label: "Keywords", name: "keywords", widget: "string", required: false}
+        - {label: "Author", name: "author", widget: "string", default: "Nader Al-Shamma"}
+        - {label: "Event", name: "event", widget: "string", required: false}
+        - {label: "Location", name: "location", widget: "string", required: false}
+        - {label: "Link", name: "link", widget: "string", required: false}
+        - {label: "Body", name: "body", widget: "markdown", required: false}
