@@ -1,10 +1,8 @@
 ---
-title: "Blog 1"
-date: 2019-08-28T19:56:44+01:00
-draft: true
-author: "Nader Al-Shamma"
-description: 
-keywords: 
+title: Blog 1
+date: 2019-08-28T18:56:44.000Z
+draft: false
+author: Nader Al-Shamma
 ---
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit egestas cubilia mattis torquent vulputate orci montes erat 
