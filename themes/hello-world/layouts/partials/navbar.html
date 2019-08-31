@@ -5,14 +5,14 @@
             <a class="navbar-item" href="{{ .Site.Home.RelPermalink }}">
                 <p class="title is-6">$ cd /home/nader</p>
             </a>
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+            <a role="button" id="toggle-mobile-menu-button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
                data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
         </section>
-        <section class="navbar-menu">
+        <section id="main-menu" class="navbar-menu">
             <div class="navbar-end">
                 {{ range .Site.Menus.main }}
                 <a class="navbar-item {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}"
