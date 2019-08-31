@@ -6,12 +6,11 @@ date: 2019-08-25T23:05:37+01:00
 draft: false
 description: "Software Engineer. Coffee lover, tabletop enthusiast, sci-fi fan, entrepreneur and F/T servant to Dog." 
 keywords: "Nader Al-Shamma"
+og_image: "php_unconf2017_16x9.jpg" 
 info: "Software Engineer | Business Analyst | Published Academic | Public Speaker | F/T Servant to Dog"
 resources:
 - name: profile
   src: profile.jpg
-- name: og_image
-  src: php_unconf2017_16x9.jpg 
 ---
 
 I'm Nader; a software engineer, entrepreneur, published academic and conference speaker. I'm passionate about building good 

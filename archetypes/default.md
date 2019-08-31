@@ -4,5 +4,6 @@ date: {{ .Date }}
 draft: true
 description: 
 keywords:
+og_image:
 ---
 

@@ -5,6 +5,7 @@ draft: true
 author: "{{ .Site.Params.author }}"
 description: 
 keywords:
+og_image:
 headline_image:
 ---
 

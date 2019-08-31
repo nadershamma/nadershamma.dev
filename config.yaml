@@ -9,6 +9,7 @@ permalinks:
 params:
   author: "Nader Al-Shamma"
   description: "Nader Al-Shamma"
+  og_image: "IMG_20160906_004545.jpg"
 privacy:
   disqus:
     disable: true
