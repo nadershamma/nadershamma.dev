@@ -9,7 +9,8 @@
   "author": "Nader Al-Shamma",
   "license": "UNLICENSED",
   "dependencies": {
-    "bulma": "^0.7.5"
+    "bulma": "^0.7.5",
+    "zenscroll": "^4.0.2"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.10.2"

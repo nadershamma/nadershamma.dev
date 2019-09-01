@@ -1,6 +1,6 @@
 {{ if gt (len (where .Site.RegularPages "Section" "==" "blog")) 0 }}
 <section class="section border-top container">
-    <section class="content">
+    <section id="latest-blog" class="content">
         <h2 class="is-3">
             <a href="{{ range first 1 (where .Site.Sections "Type" "blog")}} {{ .RelPermalink }} {{end}}" title="blog">
             Latest blog

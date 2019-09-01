@@ -1,5 +1,6 @@
 {{ define "extra_scripts" }}
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script src="/js/zenscroll-min.js" async></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async></script>
 {{ end }}
 {{ define "header" }}
 <header class="hero is-fullheight-with-navbar">
@@ -17,6 +18,13 @@
             {{ with .Params.info }}
             <p class="has-text-centered-mobile">{{ . }}</p>
             {{ end }}
+            <div class="tabs is-centered">
+                <ul>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#latest-blog">Latest blog</a></li>
+                    <li><a href="#references">References</a></li>
+                </ul>
+            </div>
         </section>
     </section>
 </header>
@@ -24,7 +32,7 @@
 {{ define "main" }}
 <main>
     <section class="section border-top container">
-        <article>
+        <article id="about-me">
             <header class="content">
                 {{ with .Params.about_title }}
                 <h2 class="is-3">{{ . }}</h2>
