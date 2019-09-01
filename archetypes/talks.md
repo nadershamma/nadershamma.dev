@@ -9,5 +9,7 @@ author: "{{ .Site.Params.author }}"
 event:  
 location: 
 link:
+categories:
+tags:
 ---
 

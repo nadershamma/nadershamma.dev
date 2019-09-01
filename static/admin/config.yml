@@ -31,6 +31,8 @@ collections:
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Keywords", name: "keywords", widget: "string", required: false}
       - {label: "Headline Image", name: "headline_image", widget: "image", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "references" # Used in routes, e.g., /admin/collections/blog
     label: "References" # Used in the UI
@@ -62,4 +64,6 @@ collections:
       - {label: "Event", name: "event", widget: "string", required: false}
       - {label: "Location", name: "location", widget: "string", required: false}
       - {label: "Link", name: "link", widget: "string", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}

@@ -7,5 +7,7 @@ description:
 keywords:
 og_image:
 headline_image:
+categories:
+tags:
 ---
 
