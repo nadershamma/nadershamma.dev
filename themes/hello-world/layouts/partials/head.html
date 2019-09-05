@@ -12,9 +12,12 @@
 <meta name='description' content='{{ $metaDescription }}'>
 <meta property='og:description' content='{{ $metaDescription }}'>
 <meta name='twitter:description' content='{{ $metaDescription }}'>
-{{ with .Params.og_image }}
-<meta property="og:image" content="/images/media/{{ . }}">
-<meta name="twitter:image" content="{{ . }}">
+{{ if isset .Params "og_image" }}
+<meta property="og:image" content="/images/media/{{ .Params.og_image }}">
+<meta name="twitter:image" content="{{ .Params.og_image }}">
+{{ else if isset .Params "headline_image" }}
+<meta property="og:image" content="{{ .Params.headline_image }}">
+<meta name="twitter:image" content="{{ .Params.headline_image }}">
 {{ else }}
 <meta property="og:image" content="/images/media/{{ .Site.Params.og_image }}">
 <meta name="twitter:image" content="{{ .Site.Params.og_image }}">

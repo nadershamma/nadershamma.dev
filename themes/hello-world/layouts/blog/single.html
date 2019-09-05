@@ -18,7 +18,7 @@
         <figure class="image is-fluid">
             <img src="{{ .Params.headline_image }}">
         </figure>
-        <p>{{.Params.image_src}}</p>
+        <p>{{.Params.image_src | safeHTML }}</p>
     </section>
     {{ else if (isset .Params "headline_image") }}
     <section>
