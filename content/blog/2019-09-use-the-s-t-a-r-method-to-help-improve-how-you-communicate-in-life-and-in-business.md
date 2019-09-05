@@ -10,7 +10,11 @@ description: >-
   using the S.T.A.R method.
 keywords: 'improve communication, communication techniques'
 headline_image: /images/media/workplace-1245776_1280.jpg
-image_src: Image by <a href="https://pixabay.com/users/Free-Photos-242387/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1245776">Free-Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1245776">Pixabay</a>
+image_src: >-
+  Image by <a
+  href="https://pixabay.com/users/Free-Photos-242387/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1245776">Free-Photos</a>
+  from <a
+  href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1245776">Pixabay</a>
 categories:
   - business
   - product management
@@ -18,7 +22,12 @@ categories:
 tags:
   - communication skills
 ---
+Communication skills are vital to, almost, everyone in life, their career not withstanding. The ability to effectivily communicate 
+
 ## Situation 
+Interview
+Trying to explain something technical to a non technical stakeholder.
+Pitching a product or a solution to a potential customer.
 ## Task 
 ## Action
 ## Results 
