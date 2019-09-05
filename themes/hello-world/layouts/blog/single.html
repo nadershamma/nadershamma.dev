@@ -12,8 +12,22 @@
 </header>
 {{ end }}
 {{ define "main" }}
-<main class="section">
-    <div class="container">
+<main class="container">
+    {{ if (and (isset .Params "headline_image") ( isset .Params "image_src")) }}
+    <section>
+        <figure class="image is-fluid">
+            <img src="{{ .Params.headline_image }}">
+        </figure>
+        <p>{{.Params.image_src}}</p>
+    </section>
+    {{ else if (isset .Params "headline_image") }}
+    <section>
+        <figure class="image is-fluid">
+            <img src="{{ .Params.headline_image }}">
+        </figure>
+    </section>
+    {{ end }}
+    <div class="section">
         <article class="content">
             {{ .Content }}
         </article>
