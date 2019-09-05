@@ -10,7 +10,7 @@ location: "Nottingham"
 link: "https://www.eventbrite.co.uk/e/the-hero-your-organisation-deserves-tickets-56973740993#"
 ---
 
-{{< slideshare "74814f35de9c4258823e8f8148416062" >}}
+{{< slides "74814f35de9c4258823e8f8148416062" >}}
 
 Stories matter. How often have you heard marketing gurus espouse the virtue of crafting your organisation’s Brand Story 
 or, to pay careful attention to your Customer’s Journey?

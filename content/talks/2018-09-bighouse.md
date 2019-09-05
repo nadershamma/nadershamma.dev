@@ -10,7 +10,7 @@ location: Nottingham
 link: "https://www.eventbrite.co.uk/e/the-big-house-creative-digital-festival-finale-gamification-at-work-tickets-49648693579#"
 ---
 
-{{< slideshare "c3234187f2884d2e9609213b29d750f6" >}}
+{{< slides "c3234187f2884d2e9609213b29d750f6" >}}
 
 Ever wondered how you can put a little fun back into your work? We introduce some basic concepts of Gamification; the 
 use of playful game mechanics in everyday life and work to help increase motivation, encourage greater engagement and 

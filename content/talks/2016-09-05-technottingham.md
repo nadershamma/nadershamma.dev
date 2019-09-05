@@ -10,7 +10,7 @@ location: "Nottingham"
 link: "https://www.technottingham.com/events/2016/9/5/tech-nottingham-september-2016-gamification-and-healthcare"
 ---
 
-{{< slideshare "2a942245d4ce4edcbc7b93cc337f289d" >}} 
+{{< slides "2a942245d4ce4edcbc7b93cc337f289d" >}} 
 
 Today Artificial Intelligence is transcending the realm of science fiction; no longer is it merely confined to the 
 sphere of academic curiosity, advancements in technology is facilitating the rise of the Intelligent Machine, which has 

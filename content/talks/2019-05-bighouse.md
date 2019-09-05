@@ -10,7 +10,7 @@ location: "Nottingham"
 link: "https://www.eventbrite.co.uk/e/for-the-joy-of-learning-teaching-through-games-and-playful-engagement-tickets-60393821546#"
 ---
 
-{{<slideshare "4dfd56ae19be4653a8a7379d526662e6" >}} 
+{{<slides "4dfd56ae19be4653a8a7379d526662e6" >}} 
 
 Organisations, of many sizes, often find themselves needing to educate a variety of people. Perhaps you need to teach 
 your employees to comply with regulation or educate customers on how you operate. You may simply want to seek novel 

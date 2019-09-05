@@ -10,7 +10,7 @@ location: "Nottingham"
 link: "https://www.technottingham.com/events/tech-nottingham-july-2019"
 ---
 
-{{< slideshare "8c03421565db44b1bea1f1d72911c9ce" >}} 
+{{< slides "8c03421565db44b1bea1f1d72911c9ce" >}} 
 
 Ever wondered how you can put a little fun back into your work? In this talk Nader and Jorge give a high-level 
 introduction to Gamification. How playful game mechanics can be implemented in everyday life and work to help increase 
