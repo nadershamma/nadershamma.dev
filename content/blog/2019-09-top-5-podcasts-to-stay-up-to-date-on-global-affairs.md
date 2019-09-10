@@ -1,7 +1,7 @@
 ---
 title: Top 5 Podcasts to Stay up to Date on Global Affairs.
 date: 2019-09-09T22:48:37.406Z
-draft: true
+draft: false
 author: Nader Al-Shamma
 description: Stay up to date with global affairs with these top 5 podcasts.
 keywords: 'Current Affairs Podcasts, International News Podcasts'
