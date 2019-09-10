@@ -28,7 +28,7 @@ The Financial Times News Briefing provides a short summary of global affairs del
 
 ![FT News in Focus](/images/media/ftnewsfocus.jpeg "FT News in Focus")
 
-Another great podcast from the Financial Times. The FT News in Focus provides a miniature deep dive into a wide variety of global topics. Each podcast is about 15 minutes long and released during the working week.The podcast captures the zeitgeist really well, providing insight into a wide variety of topics. Topics range from global conflicts to enviromental threats and the impact of digital survailance.
+Another great podcast from the Financial Times. The FT News in Focus provides a miniature deep dive into a wide variety of global topics. Each podcast is about 15 minutes long and released during the working week.The podcast captures the zeitgeist really well, providing insight into a wide variety of topics. Topics range from global conflicts to environmental  threats and the impact of digital surveillance.
 
 [Listen to the FT News in Focus today](https://www.ft.com/news-in-focus)   
 
