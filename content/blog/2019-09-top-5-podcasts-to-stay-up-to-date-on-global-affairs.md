@@ -33,3 +33,7 @@ Another great podcast from the Financial Times. The FT News in Focus provides a 
 [Listen to the FT News in Focus today](https://www.ft.com/news-in-focus)   
 
 ## 3) The Foreign Desk
+
+![The Foreign Desk ](/images/media/foriegn-desk.jpeg "The Foreign Desk ")
+
+The Foreign Desk is a brilliant podcast from the [Monocle magazine](https://monocle.com/), giving a deep insight into global events. Once a week they provide deep analysis on global topics with the help of global experts in their respective fields. This is a great podcast for gaining an insightful glimpse into countries around the world. What I particularly like is that the podcast makes an effort to find localized expert voices. Want to know what is happening to countries in Sub Saharan Africa, Ukraine, Scandinavia or South America? They make sure to find voices from the region, not just western observers presenting their interpretation through the lens of western cultural norms. 
