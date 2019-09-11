@@ -18,15 +18,11 @@ tags:
 ---
 ## 1) FT News Briefing
 
-![FT News Briefing](/images/media/ftnewslogo.jpg "FT News Briefing")
-
 The Financial Times News Briefing provides a short summary of global affairs delivered every weekday morning. While the FT is predominantly known as a business and finance publication, this podcasts delivers a cross section of news on trending business and geopolitical events delivered in short factual and objective reports. This podcast is a great way to get a daily cross section of events that affect the world around us. Being a business and finance focused publication, this podcast  also gives you a great opportunity to learn how geopolitical events affect our economy. 
 
 [Listen to the FT News Briefing today](https://www.ft.com/newsbriefing)
 
 ## 2) FT News in Focus
-
-![FT News in Focus](/images/media/ftnewsfocus.jpeg "FT News in Focus")
 
 Another great podcast from the Financial Times. The FT News in Focus provides a miniature deep dive into a wide variety of global topics. Each podcast is about 15 minutes long and released during the working week.The podcast captures the zeitgeist really well, providing insight into a wide variety of topics. Topics range from global conflicts to environmental  threats and the impact of digital surveillance.
 
@@ -34,6 +30,9 @@ Another great podcast from the Financial Times. The FT News in Focus provides a 
 
 ## 3) The Foreign Desk
 
-![The Foreign Desk ](/images/media/foriegn-desk.jpeg "The Foreign Desk ")
-
 The Foreign Desk is a brilliant podcast from the [Monocle magazine](https://monocle.com/), giving a deep insight into global events. Once a week they provide deep analysis on global topics with the help of global experts in their respective fields. This is a great podcast for gaining an insightful glimpse into countries around the world. What I particularly like is that the podcast makes an effort to find localized expert voices. Want to know what is happening to countries in Sub Saharan Africa, Ukraine, Scandinavia or South America? They make sure to find voices from the region, not just western observers presenting their interpretation through the lens of western cultural norms. 
+
+[Listen to The Foreign Desk every Saturday](https://monocle.com/radio/shows/the-foreign-desk/)
+
+## 4) The Week Unwrapped 
+
