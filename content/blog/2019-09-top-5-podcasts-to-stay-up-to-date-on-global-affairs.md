@@ -1,7 +1,9 @@
 ---
-title: Top 4 Podcasts to Stay up to Date on Global Current Affairs.
+title: >-
+  Top 4 Podcasts for entrepreneurs  to Stay up to Date on Global Current
+  Affairs.
 date: 2019-09-09T22:48:37.406Z
-draft: true
+draft: false
 author: Nader Al-Shamma
 description: Stay up to date with global affairs with these top 5 podcasts.
 keywords: 'Current Affairs Podcasts, International News Podcasts'
@@ -16,6 +18,14 @@ categories:
 tags:
   - Podcasts
 ---
+One of the first things you learn when studying marketing and business is the importance of conducting a micro and macro analysis of the market. This included understanding the wider implications of how geopolitical events, social changes and economic forces impact business and the economy at large. 
+
+As I delved further into my undergraduate studies I became fascinated by how different cultures conducted business and how everything from social change to technological progress and environmental forces, just to name a few, can have a profound impact on business; simultaneously presenting amazing opportunities while crushing entire industries. 
+
+I once had a teacher who simply said, "want to do well in your course and in business? Read a good quality paper everyday and keep up to date with current events!".
+
+The rise in popularity of podcasts means that we are spoiled for choice. There seems to be a podcast for nearly every subject, current global events not with standing. That being said, here are 4 great podcasts I would recommend for easily keeping up to date with current affairs.  
+
 ## 1) FT News Briefing
 
 The Financial Times News Briefing provides a short summary of global affairs delivered every weekday morning. While the FT is predominantly known as a business and finance publication, this podcasts delivers a cross section of news on trending business and geopolitical events delivered in short factual and objective reports. This podcast is a great way to get a daily cross section of events that affect the world around us. Being a business and finance focused publication, this podcast  also gives you a great opportunity to learn how geopolitical events affect our economy. 
