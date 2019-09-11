@@ -1,5 +1,5 @@
 ---
-title: Top 5 Podcasts to Stay up to Date on Global Affairs.
+title: Top 4 Podcasts to Stay up to Date on Global Current Affairs.
 date: 2019-09-09T22:48:37.406Z
 draft: true
 author: Nader Al-Shamma
@@ -39,6 +39,4 @@ The Foreign Desk is a brilliant podcast from the [Monocle magazine](https://mono
 The Week Unwrapped is weekly podcast which focuses on noteworthy news that aren't the headlines. This podcast is brilliant at reporting important stories that are likely to have a broad impact on a large number of people. 
 
 [Listen to The Week Unwrapped](https://www.theweek.co.uk/the-week-unwrapped)
-
-## 5) Bomb Shell
 
