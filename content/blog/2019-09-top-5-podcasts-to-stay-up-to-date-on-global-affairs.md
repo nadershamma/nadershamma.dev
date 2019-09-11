@@ -40,3 +40,5 @@ The Week Unwrapped is weekly podcast which focuses on noteworthy news that aren'
 
 [Listen to The Week Unwrapped](https://www.theweek.co.uk/the-week-unwrapped)
 
+## 5) Bomb Shell
+
