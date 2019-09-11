@@ -36,3 +36,7 @@ The Foreign Desk is a brilliant podcast from the [Monocle magazine](https://mono
 
 ## 4) The Week Unwrapped 
 
+The Week Unwrapped is weekly podcast which focuses on noteworthy news that aren't the headlines. This podcast is brilliant at reporting important stories that are likely to have a broad impact on a large number of people. 
+
+[Listen to The Week Unwrapped](https://www.theweek.co.uk/the-week-unwrapped)
+
