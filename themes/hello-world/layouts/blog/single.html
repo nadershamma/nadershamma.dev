@@ -16,7 +16,7 @@
     {{ if (and (isset .Params "headline_image") ( isset .Params "image_src")) }}
     <section>
         <figure class="image is-fluid">
-            <img src="{{ .Params.headline_image }}">
+            <img src="{{ .Params.headline_image }}" alt="{{ .Params.image_alt}}">
         </figure>
         <p style="margin-left: 1.5em">{{.Params.image_src | safeHTML }}</p>
     </section>

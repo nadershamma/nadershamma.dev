@@ -11,6 +11,7 @@ image_src: >-
   href="https://pixabay.com/users/TheDigitalArtist-202249/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2254769">Pete
   Linforth</a> from <a
   href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2254769">Pixabay</a>
+image_alt: "Global Affairs"
 categories:
   - Misc
 tags:

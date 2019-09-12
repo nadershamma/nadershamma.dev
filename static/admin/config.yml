@@ -32,6 +32,7 @@ collections:
       - {label: "Keywords", name: "keywords", widget: "string", required: false}
       - {label: "Headline Image", name: "headline_image", widget: "image", required: false}
       - {label: "Image source", name: "image_src", widget: "text", required: false}
+      - {label: "Image alt", name: "image_alt", widget: "text", required: false}
       - {label: "Categories", name: "categories", widget: "list", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}

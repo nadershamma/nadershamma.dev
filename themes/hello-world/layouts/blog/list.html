@@ -16,7 +16,9 @@
         <div class="card">
             <div class="card-image">
                 <figure class="image is-fluid">
-                    <a href="{{.RelPermalink}}"><img src="{{ .Params.headline_image }}" alt="{{ .Title }}"></a>
+                    <a href="{{.RelPermalink}}">
+                        <img src="{{ .Params.headline_image }}" alt="{{ .Params.image_alt}}">
+                    </a>
                 </figure>
             </div>
             <div class="card-content">

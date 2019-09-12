@@ -8,6 +8,7 @@ keywords:
 og_image:
 headline_image:
 image_src:
+image_alt:
 categories:
 tags:
 ---
