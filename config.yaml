@@ -3,6 +3,9 @@ languageCode: "en-gb"
 title: "Nader Al-Shamma"
 theme: "hello-world"
 pygmentsCodeFences: true
+permalinks:
+  blog: /blog/:year/:title/
+  talks: /talks/:year/:title/
 params:
   author: "Nader Al-Shamma"
   description: "Nader Al-Shamma"
