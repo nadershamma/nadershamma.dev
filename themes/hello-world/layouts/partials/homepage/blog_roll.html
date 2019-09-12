@@ -11,7 +11,7 @@
         {{range first 3 (where .Pages "Section" "blog") }}
         <div class="column is-12-mobile is-4-tablet">
             <div class="content">
-                <h2 class="title is-4"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                <h2 class="title is-5"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                 <p class="subtitle is-6">{{ .Date.Format "02 January 2006" }}</p>
             </div>
         </div>

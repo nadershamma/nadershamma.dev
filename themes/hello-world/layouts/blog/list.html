@@ -10,11 +10,16 @@
 </header>
 {{ end }}
 {{ define "main" }}
-<main class="section">
-    <div class="container">
-        {{ range .Pages }}
-        <div class="box">
-            <article class="content">
+<main class="container">
+    {{ range .Pages }}
+    <div class="section">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-fluid">
+                    <a href="{{.RelPermalink}}"><img src="{{ .Params.headline_image }}" alt="{{ .Title }}"></a>
+                </figure>
+            </div>
+            <div class="card-content">
                 <article>
                     <h2 class="title is-4"><a href="{{.RelPermalink}}">{{ .Title }}</a></h2>
                 </article>
@@ -28,9 +33,9 @@
                         </div>
                     </div>
                 </footer>
-            </article>
+            </div>
         </div>
-        {{ end }}
     </div>
+    {{ end }}
 </main>
 {{ end }}
