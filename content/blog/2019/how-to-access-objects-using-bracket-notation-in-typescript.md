@@ -1,5 +1,5 @@
 ---
-title: "How to Access Objects Using Bracket Notation in Typescript"
+title: "How to Access Object Properties Dynamically Using Bracket Notation in Typescript"
 date: 2019-09-18T19:45:49+01:00
 draft: false
 author: "Nader Al-Shamma"
