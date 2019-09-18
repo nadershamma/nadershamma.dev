@@ -1,7 +1,7 @@
 ---
 title: "How to Access Objects Using Bracket Notation in Typescript"
-date: 2019-09-18T21:45:49+01:00
-draft: 
+date: 2019-09-18T19:45:49+01:00
+draft: false
 author: "Nader Al-Shamma"
 description: "How to dynamically access object properties using bracket notation in Typescript"
 keywords: "Typescript object bracket notation, Typescript Generics"
