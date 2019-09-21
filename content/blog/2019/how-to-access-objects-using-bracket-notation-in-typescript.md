@@ -22,7 +22,8 @@ We want to associates a button to each possible dimension for the given video. O
 Instead, we will assign the value of the button to the respective property name of the relevant dimensions. When we click on a button, triggering our callback function, we can get the given event's target value and use it as a property accessor. For example:
 
 ```javascript
-// let us imagine the videos object was received from a server
+// let us imagine the videos object was received 
+// from a server
 let videos = {
   name: "Dear Diary",
   large: {
@@ -47,12 +48,15 @@ const buttons = Array.from(document.getElementsByClassName('button'));
 // lets make the active video small by default 
 let activeVideo = videos.small;
 
-// We create a function that takes an event and uses the event target's value as the property accessor of our videos object.
+// We create a function that takes an event and uses the 
+// event target's value as the property accessor of our 
+// videos object.
 function setActiveVideo(event) {
   activeVideo = videos[event.target.value];
 }
 
-// We assign setActiveVideo as the onclick callback to all the relevant buttons.
+// We assign setActiveVideo as the onclick callback to all 
+// the relevant buttons.
 buttons.forEach(button => {
   button.onclick = setActiveVideo;
 })
@@ -60,7 +64,7 @@ buttons.forEach(button => {
 
 On the face of it, recreating this functionality with Typescript should be simple.
 
-```ts
+```typescript
 function setActiveVideo(event): void {
   activeVideo = videos[event.target.value];
 }
@@ -76,8 +80,9 @@ To achieve the same functionality in typescript, we need to make use of the lang
 
 Knowing this, we can create the same functionality using Typescript:
 
-```ts
-// We want to take advantage of Typescript's types so create a couple of interfaces that model out data.
+```typescript
+// We want to take advantage of Typescript's types so create 
+// a couple of interfaces that model out data.
 interface IVideoSize {
     url: string,
     width: number,
@@ -91,7 +96,8 @@ interface IVideoData {
     small: IVideoSize
 }
 
-// In our fetch functionality, we would assign the returned data to an object of out model type. 
+// In our fetch functionality, we would assign the returned data 
+// to an object of out model type. 
 let videos: IVideoData = {
   name: "Dear Diary",
   large: {
@@ -132,8 +138,9 @@ buttons.forEach(button => {
 
 We can take this a step further and use [Typescript generics](https://www.typescriptlang.org/docs/handbook/generics.html) to create a function that returns a given object. 
 
-```ts
-// credit: Typescript documentation, src https://www.typescriptlang.org/docs/handbook/advanced-types.html#index-types
+```typescript
+// credit: Typescript documentation, src 
+// https://www.typescriptlang.org/docs/handbook/advanced-types.html#index-types
 function getProperty<T, K extends keyof T>(o: T, propertyName: K): T[K] {
     return o[propertyName]; // o[propertyName] is of type T[K]
 }

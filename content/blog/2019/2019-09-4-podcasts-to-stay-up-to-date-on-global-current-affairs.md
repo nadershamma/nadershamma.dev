@@ -45,3 +45,11 @@ The Week Unwrapped is weekly podcast which focuses on noteworthy news that aren'
 
 [Listen to The Week Unwrapped](https://www.theweek.co.uk/the-week-unwrapped)
 
+## Bonus! 5) Reply All
+I wasn't sure whether to class Reply All as a tech podcast or a current affairs one. In a sense it is both. Reply all
+gives us an insight into people and our relationship with the internet. It is introduction into all the different 
+subcultures that make up the fabric of our social interactions online. I am not sure how to give the podcast the justice
+it deserves. I'll simply say that it is highly entertaining and informative.
+
+[Listen to Reply All](https://gimletmedia.com/shows/reply-all) 
+
