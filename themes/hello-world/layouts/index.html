@@ -4,27 +4,29 @@
 {{ end }}
 {{ define "header" }}
 <header class="hero is-fullheight-with-navbar">
-    <section class="hero-body container">
-        <section class="content has-text-centered">
-            <figure id="homepage__profile-image" class="image is-rounded has-text-centered">
-                {{ with .Resources.GetMatch "profile" }}
-                <img class="is-rounded" src="{{ .RelPermalink }}">
+    <section class="hero-body">
+        <section class="container">
+            <section class="content has-text-centered">
+                <figure id="homepage__profile-image" class="image is-rounded has-text-centered">
+                    {{ with .Resources.GetMatch "profile" }}
+                    <img class="is-rounded" src="{{ .RelPermalink }}">
+                    {{ end }}
+                </figure>
+                <h1 class="title is-3 has-text-centered-mobile">{{ .Title }}</h1>
+                {{ with .Params.subtitle }}
+                <h3 class="subtitle is-5 has-text-centered-mobile"> {{ . }}</h3>
                 {{ end }}
-            </figure>
-            <h1 class="title is-3 has-text-centered-mobile">{{ .Title }}</h1>
-            {{ with .Params.subtitle }}
-            <h3 class="subtitle is-5 has-text-centered-mobile"> {{ . }}</h3>
-            {{ end }}
-            {{ with .Params.info }}
-            <p class="has-text-centered-mobile">{{ . }}</p>
-            {{ end }}
-            <div class="tabs is-centered">
-                <ul>
-                    <li><a href="#about-me">About me</a></li>
-                    <li><a href="#latest-blog">Latest blog</a></li>
-                    <li><a href="#references">References</a></li>
-                </ul>
-            </div>
+                {{ with .Params.info }}
+                <p class="has-text-centered-mobile">{{ . }}</p>
+                {{ end }}
+                <div class="tabs is-centered is-size-5-tablet is-size-7-mobile">
+                    <ul>
+                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="#latest-blog">Latest blog</a></li>
+                        <li><a href="#references">References</a></li>
+                    </ul>
+                </div>
+            </section>
         </section>
     </section>
 </header>
